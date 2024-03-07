@@ -21,7 +21,7 @@ print(not(v > 3 and v < 10)) #False because the condition inside the not is True
 # Example 6
 u = 12
 print(not(u > 10 and u % 5 ==0)) #True because the condition inside the not is False
-
+  
 
 
  
