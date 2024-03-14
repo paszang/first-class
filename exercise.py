@@ -1,7 +1,7 @@
 students_list = []
 student_dict = {}
 name = input("Enter your name here: ")
-age = int("Enter your age here: ")
+age = int(input("Enter your age here: "))
 grade = int(input("enter your grade here: "))
 students_list.append(name)
 student_dict[name]={"age":age, "grade":grade}
