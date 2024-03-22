@@ -1,5 +1,5 @@
 def reverse_string(s):
-    # Base case: if the string is empty or has only one character, return the string itself
+    # Base case: if the string is empty or has only one character, return s
     if len(s) <= 1:
         return s
     # Recursive case: concatenate the last character with the reversed substring of the string excluding the last character
