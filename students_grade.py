@@ -7,17 +7,16 @@ while i <= num_students:
 
 
     for j in range(1, num_subjects +1):
-
-
         grade= float(input(f"enter subject {j} grade for student {i}: "))
-        total_grade = grade+1
+        total_grade += grade
          
     average_grade =  total_grade / num_subjects
     print(f"average grade for student {i}: {average_grade:.2f}")
-    i = i+1
+    i += 1
+    
 
 
- 1
+ 
 
 
 

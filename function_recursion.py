@@ -10,3 +10,4 @@ def sum_of_digits(n):
                                                             #and add the last digit to the result 
     
 print(sum_of_digits(123))
+
