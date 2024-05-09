@@ -13,7 +13,7 @@ if search_name in students_list:
 else:
     print("student not found!")
 
-remove_name  = input("enter the name of the studentto remove or simply enter p to skip: ")
+remove_name  = input("enter the name of the student to remove or simply enter p to skip: ")
 
 if remove_name in students_list:
     students_list.remove(remove_name)
